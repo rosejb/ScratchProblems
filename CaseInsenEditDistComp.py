@@ -44,6 +44,10 @@ def case_insen_compare_rec(s1, s2, tol, mismatch_count = 0):
     return len(s2) - len(s1) + mismatch_count <= tol
 
 
+def greet(name: str):
+    print(f'Oh hi {name}')
+
+
 print('This is different')
 
 print('Testing Iterative Implementation')
